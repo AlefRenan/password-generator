@@ -34,7 +34,7 @@ function generatePassword() {
 
 btnCopiar.addEventListener('click', (e) => {
     function copyPassword() {
-        alert("copiou")
     }
     navigator.clipboard.writeText(novaSenha)
 })
+
